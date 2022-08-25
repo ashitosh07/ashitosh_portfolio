@@ -19,7 +19,7 @@ export default function Footer() {
         smooth={true}
         offset={-70}
         duration={1200}
-        to='header'
+        to='Home'
       >
         <ArrowUpwardIcon />
       </IconButton>
