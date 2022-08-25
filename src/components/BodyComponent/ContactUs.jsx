@@ -32,11 +32,9 @@ export default function ContactUs() {
 
   const handleOnChange = ({ target }) => {
     const { data, errors } = state
-
     target.value.length <= 3
       ? (errors[target.name] = `${target.name} have at least 3 letter`)
       : (errors[target.name] = '')
-
     data[target.name] = target.value
     setState({ data, errors })
   }
@@ -54,9 +52,14 @@ export default function ContactUs() {
           console.log(error.text)
         }
       )
-
-    e.target.reset()
-    //post data via api call
+    setState({
+      data: {
+        firstName: '',
+        email: '',
+        messages: '',
+      },
+      errors: {},
+    })
   }
 
   return (
