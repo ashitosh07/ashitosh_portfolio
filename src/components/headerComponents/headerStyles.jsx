@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
     backgroundRepeat: 'no-repeat',
   },
   logo: {
-    width: '25%',
+    width: '17%',
     marginTop: '10px',
     marginLeft: '30px',
     borderRadius: '45%',

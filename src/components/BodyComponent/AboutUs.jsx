@@ -7,18 +7,26 @@ import aboutImage from '../../images/Aboutus.jpg'
 import WebIcon from '@material-ui/icons/Web'
 import SchoolIcon from '@material-ui/icons/School'
 import ScrollAnimation from 'react-animate-on-scroll'
-
+import Avatar from '@mui/material/Avatar'
 export default function AboutUs() {
   const classes = useStyles()
 
   const skills = [
     {
-      icon: <WebIcon />,
+      icon: (
+        <Avatar style={{ backgroundColor: '#0097a7' }}>
+          <WebIcon />
+        </Avatar>
+      ),
       title: 'Skills',
       desc: `HTML,CSS,JAVASCRIPT,REACT JS`,
     },
     {
-      icon: <SchoolIcon />,
+      icon: (
+        <Avatar style={{ backgroundColor: '#0097a7' }}>
+          <SchoolIcon />
+        </Avatar>
+      ),
       title: 'Education',
       desc: 'Bacheclor of Science',
     },

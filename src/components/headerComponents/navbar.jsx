@@ -12,7 +12,7 @@ import { useStyles } from './headerStyles'
 import { Link } from 'react-scroll'
 import MenuOpenRoundedIcon from '@material-ui/icons/MenuOpenRounded'
 import { Theme } from '../Theme'
-import logo from '../../images/logo.jpg'
+import logo from '../../images/logo1.jpg'
 
 export default function Navbar({ navLinks, handleDrawerOpen }) {
   const classes = useStyles()
