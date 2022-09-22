@@ -22,7 +22,7 @@ import Image6 from '../../images/5-9.jpg'
 export default function Portfolio() {
   const classes = useStyles()
 
-  const portfolio = [
+   const portfolio = [
     {
       url: Image1,
       name: 'Created a single landing webpage for a client in Fiverr',
@@ -31,9 +31,9 @@ export default function Portfolio() {
     },
     {
       url: Image2,
-      name: ' # PortFolio 2',
-      link1: 'https://elastic-davinci-ff2b25.netlify.app/',
-      link2: 'https://github.com/ashitosh07/Fiver01',
+      name: 'React Anime Api',
+      link1: 'https://starlit-pithivier-e11525.netlify.app/',
+      link2: 'https://github.com/ashitosh07/anime_api',
     },
     {
       url: Image3,
@@ -43,9 +43,9 @@ export default function Portfolio() {
     },
     {
       url: Image4,
-      name: ' # PortFolio 4',
-      link1: 'https://elastic-davinci-ff2b25.netlify.app/',
-      link2: 'https://github.com/ashitosh07/Fiver01',
+      name: 'React SuperHero Api',
+      link1: 'https://gorgeous-lollipop-450ad1.netlify.app/',
+      link2: 'https://github.com/ashitosh07/superhero_api',
     },
     {
       url: Image5,
