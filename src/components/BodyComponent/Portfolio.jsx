@@ -32,31 +32,31 @@ export default function Portfolio() {
     {
       url: Image2,
       name: 'React Anime Api',
-      link1: 'https://starlit-pithivier-e11525.netlify.app/',
+      link1: 'https://react-anime-api.netlify.app/',
       link2: 'https://github.com/ashitosh07/anime_api',
     },
     {
       url: Image3,
       name: ' # PortFolio 3',
-      link1: 'https://elastic-davinci-ff2b25.netlify.app/',
+      link1: '#',
       link2: 'https://github.com/ashitosh07/Fiver01',
     },
     {
       url: Image4,
       name: 'React SuperHero Api',
-      link1: 'https://gorgeous-lollipop-450ad1.netlify.app/',
+      link1: 'https://react-superhero-api.netlify.app/',
       link2: 'https://github.com/ashitosh07/superhero_api',
     },
     {
       url: Image5,
       name: ' # PortFolio 5',
-      link1: 'https://elastic-davinci-ff2b25.netlify.app/',
+      link1: '#',
       link2: 'https://github.com/ashitosh07/Fiver01',
     },
     {
       url: Image6,
       name: ' # PortFolio 6',
-      link1: 'https://elastic-davinci-ff2b25.netlify.app/',
+      link1: '#',
       link2: 'https://github.com/ashitosh07/Fiver01',
     },
   ]
